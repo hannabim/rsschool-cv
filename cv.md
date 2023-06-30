@@ -4,7 +4,7 @@
 - **Github**: [hannabim](https://github.com/hannabim)
 - **Discord**: *olha#5910*
 
-===
+---
 
 ## About:
 Dedicated to learning programming skills for the sake of self-improvement and new career possibilities.
