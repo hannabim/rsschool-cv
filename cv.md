@@ -1,21 +1,22 @@
-#*Olha Bondarenko*
+# *Olha Bondarenko*
 ![avatar](/img/avatar.png "Avatar")
 - **Email**: olha.bondarenko@ukr.net
 - **Github**: [https://github.com/hannabim]
 - **Discord**:olha#5910
-##About:
+  
+## About:
 Dedicated to learning programming skills for the sake of self-improvement and new career possibilities.
 ***
-###Skills:
+### Skills:
 - Basic knowledge of HTML, CSS, and JavaScript(React framework)
-###Code example:
+### Code example:
 ```
 function multiply(a, b){
   a * b
 }
 ```
-###Education:
+### Education:
 - SheCodes foundation: [https://www.shecodes.io/graduates/68552-olha-bondarenko]
 
-###Languages:
+### Languages:
 - English: *level A2*
