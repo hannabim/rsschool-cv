@@ -1,0 +1,159 @@
+:root {
+  --first-color: #dbd8e3;
+  --second-color: #5c5470;
+  --third-color: #352f44;
+  --fourth-color: #2a2438;
+  --main-font: "Share Tech Mono", monospace;
+  --additional-font: "VT323", monospace;
+}
+a:any-link {
+  color: var(--first-color);
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+a:hover {
+  color: var(--third-color);
+  font-weight: bold;
+}
+.side-navigation-bar {
+  list-style: none;
+  margin: 0;
+  padding-top: 25px;
+  width: 150px;
+  background-color: var(--fourth-color);
+  color: var(--first-color);
+  height: 100%;
+  position: fixed;
+}
+.side-navigation-bar li {
+  margin: 0;
+  padding: 25px 0;
+  font-family: var(--additional-font);
+  font-size: 20px;
+}
+
+main,
+footer {
+  background-color: var(--second-color);
+  margin-left: 150px;
+  color: var(--third-color);
+  font-family: var(--main-font);
+}
+.basic-info {
+  text-align: center;
+  color: var(--first-color);
+  text-decoration: underline;
+  padding: 10px 50px;
+}
+h1,
+h2,
+h3 {
+  font-family: var(--additional-font);
+  padding: 10px;
+  text-align: center;
+}
+.container {
+  font-size: small;
+  color: var(--first-color);
+}
+.avatar {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 5px solid var(--first-color);
+}
+.contacts {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.job-position {
+  text-align: center;
+  color: var(--first-color);
+}
+.fa-brands,
+.fa-envelope {
+  color: var(--first-color);
+  font-size: 20px;
+  padding: 5px;
+}
+.contact-way {
+  font-weight: bold;
+  color: var(--first-color);
+}
+.skills {
+  color: var(--first-color);
+  list-style: none;
+}
+.skill-name {
+  text-align: right;
+}
+.active {
+  color: var(--fourth-color);
+}
+
+pre {
+  background-color: var(--first-color);
+  padding: 15px;
+  margin: 5px 100px;
+  border: 5px solid var(--fourth-color);
+}
+
+.button {
+  padding: 10px;
+  border: 3px solid var(--first-color);
+  border-radius: 30px;
+  display: block;
+  text-align: center;
+  color: var(--first-color);
+  background-color: var(--third-color);
+  margin: 0 auto;
+  cursor: pointer;
+  width: 50%;
+  transition: all 150ms ease-in-out;
+}
+
+.button:hover {
+  background-color: var(--first-color);
+  border: 3px solid var(--third-color);
+  color: var(--third-color);
+  font-weight: bold;
+}
+.education {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+.dates {
+  font-weight: bolder;
+  font-style: italic;
+}
+.languages {
+  text-align: center;
+}
+.language {
+  color: var(--first-color);
+  font-weight: bold;
+  font-style: italic;
+}
+footer {
+  padding: 40px 10px;
+}
+logo {
+  float: left;
+  padding: 10px;
+}
+.top-link {
+  display: block;
+  text-align: right;
+  padding-right: 10px;
+}
