@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/3430b3bb34.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=VT323&display=swap"
+      rel="stylesheet"
+    />
+
+    <body>
+      <header>
+        <nav>
+          <ul class="side-navigation-bar">
+            <li>
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#contacts">Contacts</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#code">Code example</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#language">Languages</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <img
+          src="./pictures/avatar.jpeg"
+          alt="Avatar"
+          width="300"
+          height="300"
+          class="avatar"
+          id="top-of-page"
+        />
+        <h1>Olha Bondarenko</h1>
+        <p class="job-position">Junior front-end developer</p>
+
+        <h2 id="about">About</h2>
+        <p class="basic-info">
+          Beginner front-end developer,based in Ukraine. Dedicated to learning
+          programming skills for the sake of self-improvement and new career
+          possibilities.
+        </p>
+        <h2 id="contacts">Contacts</h2>
+        <ul class="contacts">
+          <li>
+            <div><i class="fa-solid fa-envelope"></i></div>
+            <div class="contact-way">Email</div>
+            <a href="mailto:olha.bondarenko@ukr.net">olha.bondarenko@ukr.net</a>
+          </li>
+          <li>
+            <div><i class="fa-brands fa-github"></i></div>
+            <div class="contact-way">Github</div>
+            <a href="https://github.com/hannabim" target="_blank">hannabim</a>
+          </li>
+          <li>
+            <div><i class="fa-brands fa-discord"></i></div>
+            <div class="contact-way">Discord</div>
+            olha#5910
+          </li>
+        </ul>
+        <h2 id="skills">Skills</h2>
+        <div class="container">
+          <ul class="skills">
+            <li class="row">
+              <div class="col-5 skill-name">
+                HTML <i class="fa-brands fa-html5"></i>
+              </div>
+              <div class="col-5">
+                <i class="fa-solid fa-star-of-life active"></i>
+                <i class="fa-solid fa-star-of-life active"></i>
+                <i class="fa-solid fa-star-of-life"></i>
+                <i class="fa-solid fa-star-of-life"></i>
+                <i class="fa-solid fa-star-of-life"></i>
+              </div>
+            </li>
+            <li class="row">
+              <div class="col-5 skill-name">
+                CSS <i class="fa-brands fa-css3-alt"></i>
+              </div>
+              <div class="col-5">
+                <i class="fa-solid fa-star-of-life active"></i>
+                <i class="fa-solid fa-star-of-life active"></i>
+                <i class="fa-solid fa-star-of-life"></i>
+                <i class="fa-solid fa-star-of-life"></i>
+                <i class="fa-solid fa-star-of-life"></i>
+              </div>
+            </li>
+            <li class="row">
+              <div class="col-5 skill-name">
+                JavaScript<i class="fa-brands fa-square-js"></i>
+              </div>
+              <div class="col-5">
+                <i class="fa-solid fa-star-of-life active"></i>
+                <i class="fa-solid fa-star-of-life"></i>
+                <i class="fa-solid fa-star-of-life"></i>
+                <i class="fa-solid fa-star-of-life"></i>
+                <i class="fa-solid fa-star-of-life"></i>
+              </div>
+            </li>
+            <li class="row">
+              <div class="col-5 skill-name">
+                Bootstrap<i class="fa-brands fa-bootstrap"></i>
+              </div>
+              <div class="col-5">
+                <i class="fa-solid fa-star-of-life active"></i>
+                <i class="fa-solid fa-star-of-life active"></i>
+                <i class="fa-solid fa-star-of-life"></i>
+                <i class="fa-solid fa-star-of-life"></i>
+                <i class="fa-solid fa-star-of-life"></i>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <h2 id="code">Code example</h2>
+        <pre>
+   <code  >
+let weekDays = [
+  &quot;Monday&quot;,
+  &quot;Tuesday&quot;,
+  &quot;Wednesday&quot;,
+  &quot;Thursday&quot;,
+  &quot;Friday&quot;,
+  &quot;Saturday&quot;,
+  &quot;Sunday&quot;
+];
+weekDays.forEach(function (weekDay) {
+  console.log(`Temperature on ${weekDay} is 18 degrees`);
+});
+
+    </code>
+</pre>
+        <h2 id="projects">Projects</h2>
+        <div class="container">
+          <div class="project">
+            <h3>Hobby page</h3>
+            <p>
+              <button class="button">
+                <a
+                  href="https://s3.amazonaws.com/shecodesio-production/challenge_submissions/files/001/412/735/original/project_basic.html?1674381911"
+                  target="_blank"
+                  >Launch project</a
+                >
+              </button>
+            </p>
+          </div>
+
+          <div class="project">
+            <h3>Weather-app</h3>
+            <p>
+              <button class="button">
+                <a
+                  href="https://www.shecodes.io/workshops/shecodes-plus-6907000e-139d-4046-8b4e-47386511243d/projects/1529355"
+                  target="_blank"
+                  >Launch project</a
+                >
+              </button>
+            </p>
+          </div>
+
+          <div class="project">
+            <h3>Beauty brand landing page</h3>
+            <p>
+              <button class="button">
+                <a
+                  href="https://www.shecodes.io/contests/beauty-brand-landing-page-challenge/contest_entries/olha-bondarenko-ukrainian/preview"
+                  target="_blank"
+                  >Launch project</a
+                >
+              </button>
+            </p>
+          </div>
+        </div>
+        <h2 id="education">Education</h2>
+        <div class="education">
+          <span class="dates">January - June 2023:</span>
+          <a href="https://www.shecodes.io/" target="_blank"
+            >SheCodes foundation</a
+          >
+        </div>
+
+        <h2 id="language">Languages</h2>
+        <div class="languages">
+          <div><span class="language">English:</span> level A2</div>
+          <div><span class="language">Spanish:</span> level A1</div>
+        </div>
+
+        <footer>
+          <img
+            src="https://rs.school/images/rs_school_js.svg"
+            alt="Rs-school logo"
+            width="100px"
+            class="logo"
+          />
+          <div class="links">
+            <a href="https://rs.school/js/" target="_blank">RS-school</a>
+            <a href="https://github.com/hannabim/rsschool-cv" target="_blank"
+              >Open-sourced code</a
+            >
+            <p><strong>2023</strong></p>
+          </div>
+          <a href="#top-of-page" class="top-link">Back to the top ⬆️</a>
+        </footer>
+      </main>
+    </body>
+  </head>
+</html>
